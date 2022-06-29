@@ -1,7 +1,7 @@
 # 371Digital oAuth NodeJS Client 
 
 ## Description
-371Digital büynesinde üretilen ürünlerin, yönetim ve üretim parçalarının API servislerinde auth işemleri için kullanılması gereken pakettir. 
+371Digital bünyesinde üretilen ürünlerin, yönetim ve üretim parçalarının API servislerinde auth işemleri için kullanılması gereken pakettir. 
 
 ## Methods
 
