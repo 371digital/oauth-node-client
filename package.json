@@ -1,17 +1,33 @@
 {
   "name": "oauth-node-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "371Digital oAuth Node Client",
   "main": "dist/index.js",
   "scripts": {
     "watch": "yarn build --watch",
     "build": "babel src --out-dir dist"
   },
-  "author": "371 Digital",
+  "author": "371Digital",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/371digital/oauth-node-client"
+  },
   "dependencies": {
     "@babel/runtime": "^7.18.3",
     "axios": "^0.27.2"
   },
+  "bugs": {
+    "url": "https://github.com/371digital/oauth-node-client/issues"
+  },
+  "homepage": "https://github.com/371digital/oauth-node-client#371digital-oauth-nodejs-client",
+  "keywords": [
+    "371Digital",
+    "node",
+    "nodejs",
+    "oauth",
+    "client",
+    "apiclient"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.2",
