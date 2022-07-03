@@ -22,7 +22,12 @@ var getUserData = /*#__PURE__*/function () {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            _context.next = 2;
+            if (!_services.container.get(userId)) {
+              _context.next = 5;
+              break;
+            }
+
+            _context.next = 3;
             return _services.axios.get(_constants.endPoints.getProfile, {
               headers: {
                 "x-access-token": _services.container.get(userId)
@@ -31,11 +36,17 @@ var getUserData = /*#__PURE__*/function () {
               return res.data;
             });
 
-          case 2:
+          case 3:
             data = _context.sent;
             return _context.abrupt("return", data);
 
-          case 4:
+          case 5:
+            return _context.abrupt("return", {
+              code: 400,
+              message: "UserId not found in container."
+            });
+
+          case 6:
           case "end":
             return _context.stop();
         }
