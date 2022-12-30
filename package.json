@@ -1,6 +1,6 @@
 {
   "name": "oauth-node-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "371Digital oAuth Node Client",
   "main": "dist/index.js",
   "scripts": {
