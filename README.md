@@ -6,7 +6,7 @@
 ## Methods
 
 ### verifyToken
-Endpointlerdeki auth middlewarelerde kullanılır. Bir endpoint yönetim veya üretim noktasında bir değişiklik yapacak ise authenticationa ihtiyaç duyar. Client tarafında [oAuth React Client]() paketini kullanarak elde edilen tokenları verify etmek için kullanılır. 
+Endpointlerdeki auth middlewarelerde kullanılır. Bir endpoint yönetim veya üretim noktasında bir değişiklik yapacak ise authenticationa ihtiyaç duyar. Client tarafında [oAuth Request Client](https://www.npmjs.com/package/oauth-request-client) paketini kullanarak elde edilen tokenları verify etmek için kullanılır. 
 
 ```js
 const result = await verifyToken("jwtToken");
